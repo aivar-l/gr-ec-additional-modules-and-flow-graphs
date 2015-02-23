@@ -3,6 +3,8 @@ GNU Radio modules for doppler correction (for GPredict and Hummingbird) and diff
 
 This is an addition to gr-ec (https://github.com/andresv/gr-ec) repository, originally created by Martin Neerot and modified by Andres Vahter.
 
+Authors of the flow graphs: Aivar Lobjakas, Martin Neerot, Andres Vahter.
+
 ## Version 1
 + GNU Radio Companion file (.grc):
   + uses 'PLL Freq Det' block to find the correct signal frequency.
