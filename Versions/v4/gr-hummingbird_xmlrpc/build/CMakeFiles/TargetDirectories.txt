@@ -1,0 +1,4 @@
+/home/ubuntu/gr-hummingbird_xmlrpc/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/ubuntu/gr-hummingbird_xmlrpc/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/ubuntu/gr-hummingbird_xmlrpc/build/python/CMakeFiles/pygen_python_a3f3e.dir
+/home/ubuntu/gr-hummingbird_xmlrpc/build/CMakeFiles/uninstall.dir

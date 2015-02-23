@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<block>
+  <name>HummingbirdToXMLRPC</name>
+  <key>hummingbird_xmlrpc_HummingbirdToXMLRPC</key>
+  <category>hummingbird_xmlrpc</category>
+  <import>import hummingbird_xmlrpc</import>
+  <make>hummingbird_xmlrpc.HummingbirdToXMLRPC($xmlrpcAddr, $xmlrpcPort, $hbirdAddr, $hbirdPort)
+threading.Thread(target=self.$(id).work(0, 0)).start()</make>
+
+  <param>
+    <name>XMLRPC Address</name>
+    <key>xmlrpcAddr</key>
+    <type>string</type>
+  </param>
+  <param>
+    <name>XMLRPC Port</name>
+    <key>xmlrpcPort</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Hbird Address</name>
+    <key>hbirdAddr</key>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Hbird Port</name>
+    <key>hbirdPort</key>
+    <type>int</type>
+  </param>
+</block>
