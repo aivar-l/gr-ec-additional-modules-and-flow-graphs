@@ -22,6 +22,7 @@ Authors of the flow graphs: Aivar Lobjakas, Martin Neerot, Andres Vahter.
 ## Version 4
 + GNU Radio module
   + communicates with Hummingbird (uses Extended Response Protocol) instead of Gpredict.
+
 Use the flowgraph from version 3.
 
 ### How to install the modules in versions 3 and 4
