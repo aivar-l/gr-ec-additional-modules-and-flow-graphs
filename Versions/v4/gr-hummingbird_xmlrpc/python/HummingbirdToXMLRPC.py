@@ -75,7 +75,7 @@ class HummingbirdToXMLRPC(gr.sync_block):
     	    response = "get_freq: \nFrequency: " + str(int(correctFrequency))+"\nRPRT 0\n"
     	# +V Sub (downlink) or +V Main (uplink)
     	elif case == 3 or case == 4:
-    	    response = "set_freq: " + command[3:] + "RPRT 0\n"
+    	    response = "set_vfo: " + command[3:] + "RPRT 0\n"
     
     	connection.sendall(response)
     	return
